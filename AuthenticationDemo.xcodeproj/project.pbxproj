@@ -14,6 +14,7 @@
 		CE2AAC78291D15D6009B4FB3 /* AuthenticationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AAC77291D15D6009B4FB3 /* AuthenticationDemoTests.swift */; };
 		CE2AAC82291D15D6009B4FB3 /* AuthenticationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AAC81291D15D6009B4FB3 /* AuthenticationDemoUITests.swift */; };
 		CE2AAC84291D15D6009B4FB3 /* AuthenticationDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AAC83291D15D6009B4FB3 /* AuthenticationDemoUITestsLaunchTests.swift */; };
+		CE2AAC91291D18D3009B4FB3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AAC90291D18D3009B4FB3 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CE2AAC7D291D15D6009B4FB3 /* AuthenticationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthenticationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2AAC81291D15D6009B4FB3 /* AuthenticationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationDemoUITests.swift; sourceTree = "<group>"; };
 		CE2AAC83291D15D6009B4FB3 /* AuthenticationDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE2AAC90291D18D3009B4FB3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				CE2AAC66291D15D3009B4FB3 /* AuthenticationDemoApp.swift */,
-				CE2AAC68291D15D3009B4FB3 /* ContentView.swift */,
+				CE2AAC92291D18DA009B4FB3 /* Views */,
 				CE2AAC6A291D15D6009B4FB3 /* Assets.xcassets */,
 				CE2AAC6C291D15D6009B4FB3 /* Preview Content */,
 			);
@@ -125,6 +127,15 @@
 				CE2AAC83291D15D6009B4FB3 /* AuthenticationDemoUITestsLaunchTests.swift */,
 			);
 			path = AuthenticationDemoUITests;
+			sourceTree = "<group>";
+		};
+		CE2AAC92291D18DA009B4FB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE2AAC68291D15D3009B4FB3 /* ContentView.swift */,
+				CE2AAC90291D18D3009B4FB3 /* HomeScreen.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				CE2AAC69291D15D3009B4FB3 /* ContentView.swift in Sources */,
 				CE2AAC67291D15D3009B4FB3 /* AuthenticationDemoApp.swift in Sources */,
+				CE2AAC91291D18D3009B4FB3 /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
